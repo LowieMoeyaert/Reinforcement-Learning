@@ -4,9 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyter = "*"
+stable-baselines3 = "*"
+tensorflow = "*"
+numpy = "*"
+matplotlib = "*"
+ipykernel = "*"
+moviepy = "*"
+gym = "*"
+gymnasium = {extras = ["box2d"], version = "*"}
+joblib = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.11.8"
