@@ -11,7 +11,7 @@ matplotlib = "*"
 ipykernel = "*"
 moviepy = "*"
 gym = "*"
-gymnasium = {extras = ["box2d"], version = "*"}
+gymnasium = {extras = ["box2d"] }
 joblib = "*"
 
 [dev-packages]
