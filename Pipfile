@@ -13,8 +13,10 @@ moviepy = "*"
 gym = "*"
 gymnasium = {extras = ["box2d"] }
 joblib = "*"
+pyglet = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.11.8"
+8"
