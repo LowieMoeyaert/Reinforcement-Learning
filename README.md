@@ -37,6 +37,5 @@ This project focuses on implementing a Deep Q-Network (DQN) to play the Breakout
 ---
 
 ### Results
-
-The trained DQN model demonstrated significant improvement in playing Breakout compared to random actions. 
-The video in `/video_dqn_breakout` showcases the agent's learned behavior and patterns in the game it recognised.
+The video in `/video_dqn_breakout` showcases the agent's learned behavior and patterns in the game it recognised. The video in /video_random_breakout shows the difference in performance.
+In the ipynb there are also graphs included that show to performance of both models individually.
