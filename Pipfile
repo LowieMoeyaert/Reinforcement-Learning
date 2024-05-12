@@ -4,19 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-stable-baselines3 = "*"
-tensorflow = "*"
+gym = "*"
 numpy = "*"
 matplotlib = "*"
-ipykernel = "*"
-moviepy = "*"
-gym = "*"
-gymnasium = {extras = ["box2d"] }
-joblib = "*"
-pyglet = "*"
+tensorflow = "*"
+stable-baselines3 = "*"
+
 
 [dev-packages]
 
 [requires]
 python_version = "3.11.8"
-8"
